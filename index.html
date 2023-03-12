@@ -4,80 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist//css/bootstrap.css">
-    <link rel="stylesheet" href="pg1.html">
-    <link rel="stylesheet" href="pg2.html">
-    <link rel="stylesheet" href="pg3.html">
-    <link rel="stylesheet" href="pg4.html">
-    <link rel="shortcut icon" href="img/favicon.jpg">
-    <title>teste</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/estilo.css">
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/js/bootstrap.js">
+
+    <!--Fontes-->
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+    <title>Inteligênia Artificial</title>
 </head>
 <body>
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="img/logo.webp" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="javascript:void(0);" onclick="index();">IA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="javascript:void(0);" aria-current="page" onclick="sobre();">O que é<span class="sr-only"></span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pg1.html">Cadastro</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="pg2.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Pelucias
-                </a>
-                <li class="nav-item">
-                    <a class="nav-link" href="pg3.html">Camisetas</a>
-                  </li>
-                
+                <a class="nav-link" href="javascript:void(0);" onclick="termo();">Termos<span class="sr-only"></span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="pg4.html">Canecas</a>
+                <a class="nav-link" href="javascript:void(0);" onclick="exemplos();">Exemplos de IA<span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);" onclick="empresas();">Empresas<span class="sr-only"></span></a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+            <form class="form-inline my-2 my-lg-0">
+                <a class="btn btn-outline-primary" href="javascript:void(0);" onclick="login();" role="button">Faça Login</a>           
             </form>
           </div>
         </div>
       </nav>
 
-      <div class="section-title">
-        <h2>Sobre Nós</h2>
-        <p>Veja aqui algumas informações sobre o desenho e a loja</p>
-      </div>
-      <div class="texto">
-        <h3>Sobre O Incrível Mundo de Gumball </h3>
-        <ul>
-          <i class="bi bi-check-circled"></i> Somos uma loja inspirada no desenho "Hora de Aventura" .</li>
-          <i class="bi bi-check-circled"></i> E sobre isso desenvolvemos uma loja com base nesse tema, onde vendemos produtos diversos sobre Hora de Aventura, desde acessórios e roupas.</li>
-          <i class="bi bi-check-circled"></i>The Amazing World of Gumball (O Incrível Mundo de Gumball) é uma série de desenho animado britânico-americana criada por Ben Bocquelet para o Cartoon Network.</li>
-        </ul>
-        <p></p>
-      </div>
-        <figure>
-          <img src="img/corpo.webp" class="img-thumbnail" alt="...">
-        </figure>
-</body>
-<footer class="footer">
-  <nav aria-label="Page navigation example">
-    <ul class="pagination">
-      <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
-      <li class="page-item"><a class="page-link" href="index.html">1</a></li>
-      <li class="page-item"><a class="page-link" href="pg1.html">2</a></li>
-      <li class="page-item"><a class="page-link" href="pg2.html">3</a></li>
-      <li class="page-item"><a class="page-link" href="pg3.html">4</a></li>
-      <li class="page-item"><a class="page-link" href="pg4.html">5</a></li>
-      <li class="page-item"><a class="page-link" href="#">Próximo</a></li>
-    </ul>
-  </nav>
-</footer>
+      <h1>Inteligênia Artificial(IA)</h1>
 
+      <figure>
+        <img class="logo" src="img/inteligenciaartificial.webp" alt="Imagem Esquema Iot">
+      </figure>
+
+      <h2>O que é Inteligêcia Artificial ?</h2>
+
+      <p class="home">Em termos mais simples, IA que significa inteligência artificial refere-se a sistemas ou máquinas que mimetizam a inteligência humana para executar tarefas e podem se aprimorar iterativamente com base nas informações que eles coletam.</p>
+      <p class="home">Os chatbots usam a IA para entender os problemas dos clientes mais rapidamente e fornecer respostas mais eficientes. Os assistentes inteligentes usam a IA para analisar informações críticas de grandes conjuntos de dados de texto livre para melhorar a programação.Os mecanismos de recomendação podem fornecer recomendações automatizadas para programas de TV com base nos hábitos de visualização dos usuários</p>
+      <p class="home">A IA está mais relacionada ao processo e a capacidade de pensamento superpoderoso e a análise de dados do que a qualquer formato ou função em particular. Embora a IA traga imagens de robôs parecidos com os homens de alto funcionamento que dominam o mundo, a IA não pretende substituir os seres humanos. Seu objetivo é melhorar significativamente as habilidades e contribuições humanas. Isso faz dela um ativo de negócios muito valioso.</p>
+
+      <script src="bootstrap-5.3.0-alpha1-dist/js/code.js"></script>
+
+</body>
 </html>
