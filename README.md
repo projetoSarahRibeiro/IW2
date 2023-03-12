@@ -1,3 +1,3 @@
-# Projeto_IW2_2023
+# Projeto_IW2
 
-https://projetosarahribeiro.github.i/IW2
+https://projetosarahribeiro.github.io/IW2
